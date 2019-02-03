@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical">
+
+    <TextView
+        android:id="@+id/tvNumberOfGuests"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/number_of_guests"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:layout_marginTop="16dp"
+        />
+
+    <TextView
+        android:id="@+id/tvNumber"
+        android:layout_below="@+id/tvNumberOfGuests"
+        android:layout_width="120dp"
+        android:layout_height="40dp"
+        android:background="#DBDADA"
+        android:textSize="20sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        />
+
+    <TextView
+        android:id="@+id/tvTotalCost"
+        android:layout_below="@+id/tvNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/total_cost"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:layout_marginTop="16dp"
+        />
+
+    <TextView
+        android:id="@+id/tvTotal"
+        android:layout_below="@+id/tvTotalCost"
+        android:layout_width="120dp"
+        android:layout_height="40dp"
+        android:background="#DBDADA"
+        android:layout_centerHorizontal="true"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:layout_marginTop="8dp"
+        />
+
+    <TextView
+        android:id="@+id/tvDownPayments"
+        android:layout_below="@+id/tvTotal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/downpayments_payed"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:layout_marginTop="16dp"
+        />
+
+    <TextView
+        android:id="@+id/tvPayed"
+        android:layout_below="@+id/tvDownPayments"
+        android:layout_width="120dp"
+        android:layout_height="40dp"
+        android:background="#DBDADA"
+        android:layout_centerHorizontal="true"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:layout_marginTop="8dp"
+        />
+    <TextView
+        android:id="@+id/tvLeftToPay"
+        android:layout_below="@+id/tvPayed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/left_to_pay"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:layout_marginTop="16dp"
+        />
+
+    <TextView
+        android:id="@+id/tvLeft"
+        android:layout_below="@+id/tvLeftToPay"
+        android:layout_width="120dp"
+        android:layout_height="40dp"
+        android:background="#DBDADA"
+        android:layout_centerHorizontal="true"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:layout_marginTop="8dp"
+        />
+
+    <TextView
+        android:id="@+id/actionSummary_ok"
+        android:layout_below="@+id/tvLeft"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="46dp"
+        android:layout_marginBottom="20dp"
+        android:layout_centerHorizontal="true"
+        android:text="@string/ok"
+        android:textSize="24sp"
+        android:textColor="#000000"
+        />
+
+
+</RelativeLayout>
